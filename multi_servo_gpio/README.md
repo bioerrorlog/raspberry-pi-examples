@@ -11,7 +11,7 @@ sudo apt install python3-pip python3-dev gcc git
 sudo pip install -r requirements.txt
 
 # Run script
-sudo python3 servo_gpio/main.py
+sudo python3 main.py
 # You need to run as root to avoid the error:
 # RuntimeError: No access to /dev/mem. Try running as root!
 ```
