@@ -17,4 +17,5 @@ sudo python3 main.py
 ```
 
 ## Reference
+- https://www.bioerrorlog.work/entry/raspberry-pi-multi-servo
 - https://github.com/bioerrorlog/snake-servo-pi
