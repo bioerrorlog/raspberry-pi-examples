@@ -7,7 +7,7 @@ Control multi servo motors.
 # Install required packages
 sudo apt update
 sudo apt upgrade
-sudo apt install python3-pip python3-dev gcc git
+sudo apt install python3-pip python3-dev gcc
 sudo pip install -r requirements.txt
 
 # Run script
