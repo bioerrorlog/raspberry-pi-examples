@@ -21,8 +21,7 @@ def save_gz_parquet(df: pd.DataFrame, file_path: str) -> None:
 
 def upload_to_s3(bucket: str, s3_key: str, file_path: str) -> None:
     s3 = boto3.client('s3')
-    with open(file_path, 'rb') as file:
-        s3.upload_fileobj(file, bucket, s3_key)
+    s3.upload_file(file_path, bucket, s3_key)
 
 
 def main() -> None:
